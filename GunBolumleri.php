@@ -1,20 +1,19 @@
 <?php
-
-$bugün= date("H");
 date_default_timezone_set('Europe/Istanbul');
-if ($bugün >= "06" AND $bugün < "10")
+$bugun= date("H");
+if ($bugun >= "06" AND $bugun < "10")
 {
 	echo 'Günaydın';
 }
-elseif ($bugün >= "10" AND $bugün < "17")
+elseif ($bugun >= "10" AND $bugun < "17")
 {
 	echo 'İyi günler';
 }
-elseif ($bugün >= "17" AND $bugün < "20")
+elseif ($bugun >= "17" AND $bugun < "20")
 {
 	echo 'İyi akşamlar';
 }
-elseif ($bugün >= "20" AND $bugün < "00")
+elseif ($bugun >= "20" AND $bugun < "00")
 {
 	echo 'İyi geceler';
 }
